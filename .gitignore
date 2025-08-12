@@ -1,0 +1,12 @@
+﻿**/__pycache__/
+**/*.pyc
+**/*.log
+**/node_modules/
+**/dist/
+**/.env
+**/.env.*
+yeonboy_clone/backend/.venv/
+yeonboy_clone/backend/uploads/
+yeonboy_clone/backend/chroma_db/
+yeonboy_clone/backend/*.sqlite3
+yeonboy_clone/backend/blobs/

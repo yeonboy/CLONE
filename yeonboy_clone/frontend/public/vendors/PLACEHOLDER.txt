@@ -1,0 +1,14 @@
+Put decoders here:
+
+- /vendors/draco/
+  - draco_decoder.wasm
+  - draco_decoder.js
+
+- /vendors/basis/
+  - basis_transcoder.wasm
+  - basis_transcoder.js
+
+Optional if using meshopt-compressed glb:
+- three/examples/jsm/libs/meshopt_decoder.module.js (already imported from three package)
+
+

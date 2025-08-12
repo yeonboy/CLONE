@@ -1,0 +1,5 @@
+{
+    "geminicodeassist.chat.changeView": "Inline suggestions",
+    "geminicodeassist.chat.defaultCodeBlockDisplay": "Expanded",
+    "geminicodeassist.chat.enableStreaming": true
+}
