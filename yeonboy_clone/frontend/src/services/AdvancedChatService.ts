@@ -1,7 +1,7 @@
 // Note: Message 타입은 이 파일에서 직접 사용되지 않습니다.
 
 // Vite 프록시를 통해 백엔드(127.0.0.1:3001)로 전달
-const API_BASE = '/api';
+const API_BASE = (import.meta as any).env?.VITE_API_BASE_URL || '/api';
 
 export interface ChatResponse {
   reply: string;
